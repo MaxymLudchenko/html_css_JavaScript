@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'anton',sans-serif;
+    color: 000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('../img/header-bg.jpg') no-repeat center top / cover;
+    padding-top: 57px;
+   height: 900px;
+   width: 1600px;
+    
+}
+header a {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 40px;
+    letter-spacing: 0.1em;
+}
+.menu li a:hover {
+    color: gold;
+   
+}
+
+.tel {
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.logo {
+    margin-right: 69px;
+}
+
+.offer {
+    text-transform: uppercase;
+    margin-top: 216px;
+
+}
+.offer p {
+
+    letter-spacing: 0.1em;
+    color: #fff;
+    font-size: 30px;
+}
+
+.offer h1 {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.2em;
+    color: #fff;
+
+    
+}
+
+.btn {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: gold;
+}
+
+.btn::after {
+    opacity: 0;
+    transition: opacity .1s linear;
+}
+
+section {
+    padding-top: 113px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.description p {
+    font-family: 'open sans';
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+}
+
+.desc-left {
+    width: 567px;
+}
+
+.desc-right {
+    width: 567px;
+}
+
+.gallery {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
